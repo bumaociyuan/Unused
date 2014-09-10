@@ -22,6 +22,7 @@
 @synthesize cppCheckbox=_cppCheckbox;
 @synthesize headerCheckbox=_headerCheckbox;
 @synthesize mmCheckbox=_mmCheckbox;
+@synthesize jsCheckbox=_jsCheckbox;
 @synthesize htmlCheckbox =_htmlCheckbox;
 @synthesize plistCheckbox =_plistCheckbox;
 @synthesize cssCheckbox =_cssCheckbox;
@@ -221,6 +222,7 @@ NSString const *kSettingExtensionKey = @"kSettingExtensionKey";
                                               [NSDictionary dictionaryWithObjectsAndKeys:_sbCheckbox, kSettingControlKey, @"storyboard", kSettingExtensionKey, nil],
                                               [NSDictionary dictionaryWithObjectsAndKeys:_cppCheckbox, kSettingControlKey, @"cpp", kSettingExtensionKey, nil],
                                               [NSDictionary dictionaryWithObjectsAndKeys:_mmCheckbox, kSettingControlKey, @"mm", kSettingExtensionKey, nil],
+                                              [NSDictionary dictionaryWithObjectsAndKeys:_jsCheckbox, kSettingControlKey, @"js", kSettingExtensionKey, nil],
                                               [NSDictionary dictionaryWithObjectsAndKeys:_htmlCheckbox, kSettingControlKey, @"html", kSettingExtensionKey, nil],
                                               [NSDictionary dictionaryWithObjectsAndKeys:_cssCheckbox, kSettingControlKey, @"css", kSettingExtensionKey, nil],
                                               [NSDictionary dictionaryWithObjectsAndKeys:_plistCheckbox, kSettingControlKey, @"plist", kSettingExtensionKey, nil],
@@ -298,6 +300,7 @@ NSString const *kSettingExtensionKey = @"kSettingExtensionKey";
     [_sbCheckbox setEnabled:state];
     [_cppCheckbox setEnabled:state];
     [_mmCheckbox setEnabled:state];
+    [_jsCheckbox setEnabled:state];
     [_headerCheckbox setEnabled:state];
     [_htmlCheckbox setEnabled:state];
     [_plistCheckbox setEnabled:state];

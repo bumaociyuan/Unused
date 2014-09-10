@@ -37,6 +37,7 @@
 @property (assign) IBOutlet NSButton *headerCheckbox;
 @property (assign) IBOutlet NSButton *htmlCheckbox;
 @property (assign) IBOutlet NSButton *mmCheckbox;
+@property (assign) IBOutlet NSButton *jsCheckbox;
 @property (assign) IBOutlet NSButton *plistCheckbox;
 @property (assign) IBOutlet NSButton *cssCheckbox;
 @property(assign) IBOutlet NSButton *browseButton;
